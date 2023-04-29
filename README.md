@@ -23,4 +23,9 @@ Este widget sera inmutable quiere decir que no cambiara en tiempo de ejecucion
 
 En los StatelessWidget, el hot reload actualizara los componentes del mismo, solo al darle ctrl+s o guardar.
 
+pubspec.xaml, en este archivo podemos ver la configuracion general de nuestro aplicativo
+
+aqui aparece:
+
+la version de nuestro sdk, dependencias, configurar nuestros assets, fuentes, entre otras
 
