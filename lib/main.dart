@@ -44,6 +44,14 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.w400,
               ),
             ),
+            ListTile(
+              leading: Icon(Icons.phone),
+              title: Text("Hola"),
+              subtitle: Text("Hola 2"),
+              trailing: Icon(
+                Icons.check_circle_outline,
+              ),
+            ),
           ],
         ),
       ),

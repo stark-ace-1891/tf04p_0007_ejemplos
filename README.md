@@ -36,6 +36,9 @@ assetimage The following assertion was thrown resolving an image codec.....
 
 La solucion es ejecutar nuevamente flutter pub get y reiniciar la aplicacion un par de veces
 
+ListTile toma todo el ancho que tenga disponible esta en un column, los objetos se reacomodan al ancho del mayor hijo, que es el ListTile
+
+
 
 
 
