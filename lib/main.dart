@@ -44,12 +44,24 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.w400,
               ),
             ),
-            ListTile(
-              leading: Icon(Icons.phone),
-              title: Text("Hola"),
-              subtitle: Text("Hola 2"),
-              trailing: Icon(
-                Icons.check_circle_outline,
+            Card(
+              color: Colors.white,
+              margin: EdgeInsets.symmetric(
+                horizontal: 14,
+                vertical: 8,
+              ),
+              elevation: 10,
+              child: ListTile(
+                leading: Icon(
+                  Icons.phone,
+                  color: Colors.indigo,
+                ),
+                title: Text("+51 233 333 444"),
+                subtitle: Text("Teléfono"),
+                trailing: Icon(
+                  Icons.check_circle_outline,
+                  color: Colors.indigo,
+                ),
               ),
             ),
           ],
