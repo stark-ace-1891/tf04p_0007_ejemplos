@@ -64,6 +64,26 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
+            Card(
+              color: Colors.white,
+              margin: EdgeInsets.symmetric(
+                horizontal: 14,
+                vertical: 8,
+              ),
+              elevation: 10,
+              child: ListTile(
+                leading: Icon(
+                  Icons.email_outlined,
+                  color: Colors.indigo,
+                ),
+                title: Text("john.doe@fak.com.pe"),
+                subtitle: Text("Correo electrónico"),
+                trailing: Icon(
+                  Icons.check_circle_outline,
+                  color: Colors.indigo,
+                ),
+              ),
+            ),
           ],
         ),
       ),
