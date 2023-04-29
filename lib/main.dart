@@ -27,11 +27,12 @@ class MyApp extends StatelessWidget {
               // ),
             ),
             Text(
-              "John Doe",
+              "John Doe Fake",
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 22,
+                fontSize: 26,
                 fontWeight: FontWeight.w700,
+                fontFamily: "Lobster",
               ),
             ),
             Text(
