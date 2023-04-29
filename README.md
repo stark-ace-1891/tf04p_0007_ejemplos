@@ -14,3 +14,13 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+stless  ->  atajo de teclado para crear un StatelessWidget
+
+MyApp hereda de un tipo StatelessWidget, la clase MyApp se va a comportar como si fuera un Widget del tipo StatelessWidget, esto indica que el widget que vamos a crear no va a tener un estado
+
+Este widget sera inmutable quiere decir que no cambiara en tiempo de ejecucion
+
+En los StatelessWidget, el hot reload actualizara los componentes del mismo, solo al darle ctrl+s o guardar.
+
+
