@@ -44,6 +44,12 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.w400,
               ),
             ),
+            Divider(
+              color: Colors.white38,
+              thickness: 0.7,
+              indent: 20,
+              endIndent: 20,
+            ),
             Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(
