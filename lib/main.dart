@@ -17,7 +17,14 @@ class MyApp extends StatelessWidget {
               radius: 56,
               backgroundColor: Colors.white54,
               backgroundImage: NetworkImage(
-                  "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600"),
+                "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600",
+              ),
+              // backgroundImage: AssetImage(
+              //   "assets/images/persona1.jpeg",
+              // ),
+              // backgroundImage: AssetImage(
+              //   "assets/images/persona2.jpeg",
+              // ),
             ),
             Text(
               "John Doe",

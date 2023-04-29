@@ -29,3 +29,14 @@ aqui aparece:
 
 la version de nuestro sdk, dependencias, configurar nuestros assets, fuentes, entre otras
 
+Cuando agregamos un asset en el archivo de configuracion, despues ejecutar el comando flutter pub get para que nuestra aplicacion reconozaca dicho recurso, si despues de darle guardar no se actualiza, reiniciar la aplicacion
+
+En el caso, que muestre el siguiente error
+assetimage The following assertion was thrown resolving an image codec.....
+
+La solucion es ejecutar nuevamente flutter pub get y reiniciar la aplicacion un par de veces
+
+
+
+
+
