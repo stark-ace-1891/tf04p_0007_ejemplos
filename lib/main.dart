@@ -19,6 +19,14 @@ class MyApp extends StatelessWidget {
               backgroundImage: NetworkImage(
                   "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600"),
             ),
+            Text(
+              "John Doe",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 22,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
           ],
         ),
       ),
