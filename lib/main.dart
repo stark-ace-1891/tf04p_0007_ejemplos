@@ -26,6 +26,9 @@ class MyApp extends StatelessWidget {
               //   "assets/images/persona2.jpeg",
               // ),
             ),
+            SizedBox(
+              height: 12,
+            ),
             Text(
               "John Doe Fake",
               style: TextStyle(
@@ -34,6 +37,9 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.w700,
                 fontFamily: "Lobster",
               ),
+            ),
+            SizedBox(
+              height: 4,
             ),
             Text(
               "FLUTTER DEVELOPER",
@@ -44,11 +50,14 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.w400,
               ),
             ),
-            Divider(
-              color: Colors.white38,
-              thickness: 0.7,
-              indent: 20,
-              endIndent: 20,
+            SizedBox(
+              width: 170,
+              child: Divider(
+                color: Colors.white38,
+                thickness: 0.7,
+                indent: 20,
+                endIndent: 20,
+              ),
             ),
             Card(
               color: Colors.white,
@@ -90,6 +99,32 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset(
+                  "assets/images/facebook.png",
+                  height: 60,
+                ),
+                SizedBox(
+                  width: 30,
+                ),
+                Image.asset(
+                  "assets/images/instagram.png",
+                  height: 60,
+                ),
+                SizedBox(
+                  width: 30,
+                ),
+                Image.asset(
+                  "assets/images/twitter.png",
+                  height: 60,
+                ),
+              ],
+            )
           ],
         ),
       ),

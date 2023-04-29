@@ -38,9 +38,9 @@ La solucion es ejecutar nuevamente flutter pub get y reiniciar la aplicacion un 
 
 ListTile toma todo el ancho que tenga disponible esta en un column, los objetos se reacomodan al ancho del mayor hijo, que es el ListTile
 
-Ponemos el cursor sobre el widget, ponemos el mouse sobre el foco y pulsamos wrap with widget, esto para envolver el ListTile con otro widget
+Ponemos el cursor sobre el widget, ponemos el mouse sobre el foco y pulsamos wrap with widget, esto para envolver el ListTile con otro widget Card
 
-
+El widget Sizedbox puede limpiar el ancho que coge el Listile
 
 
 
