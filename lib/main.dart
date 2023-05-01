@@ -13,24 +13,18 @@ class MyApp extends StatelessWidget {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            CircleAvatar(
+            const CircleAvatar(
               radius: 56,
               backgroundColor: Colors.white54,
-              backgroundImage: NetworkImage(
-                "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600",
+              backgroundImage: AssetImage(
+                "assets/images/profile.png",
               ),
-              // backgroundImage: AssetImage(
-              //   "assets/images/persona1.jpeg",
-              // ),
-              // backgroundImage: AssetImage(
-              //   "assets/images/persona2.jpeg",
-              // ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 12,
             ),
-            Text(
-              "John Doe Fake",
+            const Text(
+              "César Augusto Morales Lázaro",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 26,
@@ -38,10 +32,10 @@ class MyApp extends StatelessWidget {
                 fontFamily: "Lobster",
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 4,
             ),
-            Text(
+            const Text(
               "FLUTTER DEVELOPER",
               style: TextStyle(
                 color: Colors.white60,
@@ -50,7 +44,7 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.w400,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               width: 170,
               child: Divider(
                 color: Colors.white38,
@@ -59,7 +53,7 @@ class MyApp extends StatelessWidget {
                 endIndent: 20,
               ),
             ),
-            Card(
+            const Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(
                 horizontal: 14,
@@ -71,7 +65,7 @@ class MyApp extends StatelessWidget {
                   Icons.phone,
                   color: Colors.indigo,
                 ),
-                title: Text("+51 233 333 444"),
+                title: Text("+51 987 653 552"),
                 subtitle: Text("Teléfono"),
                 trailing: Icon(
                   Icons.check_circle_outline,
@@ -79,7 +73,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
-            Card(
+            const Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(
                 horizontal: 14,
@@ -91,7 +85,7 @@ class MyApp extends StatelessWidget {
                   Icons.email_outlined,
                   color: Colors.indigo,
                 ),
-                title: Text("john.doe@fak.com.pe"),
+                title: Text("cesar.aml1891@gmail.com"),
                 subtitle: Text("Correo electrónico"),
                 trailing: Icon(
                   Icons.check_circle_outline,
@@ -99,7 +93,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Row(
@@ -109,14 +103,14 @@ class MyApp extends StatelessWidget {
                   "assets/images/facebook.png",
                   height: 60,
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 30,
                 ),
                 Image.asset(
                   "assets/images/instagram.png",
                   height: 60,
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 30,
                 ),
                 Image.asset(
